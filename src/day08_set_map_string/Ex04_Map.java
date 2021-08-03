@@ -1,7 +1,7 @@
 package day08_set_map_string;
 
+import java.util.HashMap;
 import java.util.Iterator;
-import java.util.LinkedHashMap;
 
 public class Ex04_Map {
 	
@@ -17,8 +17,8 @@ public class Ex04_Map {
 	
 	public static void main(String[] args) {
 		
-		//HashMap map = new HashMap();
-		LinkedHashMap map = new LinkedHashMap(); // 순서 유지 가능
+		HashMap map = new HashMap();
+		//LinkedHashMap map = new LinkedHashMap(); // 순서 유지 가능
 		
 		map.put("선풍기", "10만원");
 		map.put("자동차", "1000만원");
